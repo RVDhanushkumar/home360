@@ -15,6 +15,7 @@ export default function Header(){
             <div className="options">
                 <Link href="/about"><div className="op">About us</div></Link>
                 <Link href="/services"><div className="op">Services</div></Link>
+                <Link href="/blog"><div className="op">Blog</div></Link>
                 <Link href="/contact"><div className="op">Contact</div></Link>
                 <Link href="/login"><div className="login">login</div></Link>
             </div>

@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Image from "next/image";
 import Link from "next/link";
@@ -117,6 +118,7 @@ export default function Home() {
       <div style={{display:"grid",placeContent:"center",margin:"20px"}}><h1>Our Location</h1></div>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33328.08404962139!2d83.42606439640673!3d17.922545719129158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3957d4fa6ccb81%3A0x7a22fff24f2a6120!2sArise%20Companies%20Pest%20and%20Home%20care!5e0!3m2!1sen!2sin!4v1741114298931!5m2!1sen!2sin" width="750" height="400" style={{border:"0",borderRadius:"10px"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
+      <Footer />
     </div>
   );
 }
