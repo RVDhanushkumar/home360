@@ -112,7 +112,7 @@ export default function Home() {
         <div className="testi">
           <div className="info">
             <Image src="https://www.serviceonwheel.com/uploads/homereview/399411671172940.jpg" height={100} width={100} alt="pic" style={{borderRadius:"50%"}}></Image>
-            <div style={{padding:"20px"}}><h1>Sneha</h1>
+            <div style={{padding:"20px"}}><h2>Sneha</h2>
             <p>Service Rated⭐5.0</p></div>
           </div>
           <div className="desc">
