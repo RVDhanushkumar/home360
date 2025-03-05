@@ -43,19 +43,19 @@ export default function WaterPurifier() {
                 <h2>Service Pricing</h2>
                 <div className="pricing-container">
                     <div className="pricing-card">
-                    <a href="https://en.wikipedia.org/wiki/Plumbing"><h3>Basic Service</h3></a>
+                    <Link href="https://en.wikipedia.org/wiki/Plumbing"><h3>Basic Service</h3></Link>
                         <p>₹499</p>
                         <span>Filter cleaning, minor leak fixes.</span>
                     </div>
 
                     <div className="pricing-card">
-                    <a href="https://en.wikipedia.org/wiki/Plumbing"><h3>Comprehensive Service</h3></a>
+                    <Link href="https://en.wikipedia.org/wiki/Plumbing"><h3>Comprehensive Service</h3></Link>
                         <p>₹999</p>
                         <span>Complete purification check, filter replacement.</span>
                     </div>
 
                     <div className="pricing-card">
-                    <a href="https://en.wikipedia.org/wiki/Plumbing"><h3>Annual Maintenance</h3></a>
+                    <Link href="https://en.wikipedia.org/wiki/Plumbing"><h3>Annual Maintenance</h3></Link>
                         <p>₹2,499</p>
                         <span>Includes 3 periodic services & spare parts replacement.</span>
                     </div>
