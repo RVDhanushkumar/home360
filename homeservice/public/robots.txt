@@ -1,3 +1,9 @@
+# *
 User-agent: *
 Allow: /
+
+# Host
+Host: https://home360-bu99.vercel.app/
+
+# Sitemaps
 Sitemap: https://home360-bu99.vercel.app/sitemap.xml
