@@ -51,6 +51,21 @@ export default function Home() {
           content="https://yourwebsite.com/twitter-image.jpg"
         />
         <link rel="canonical" href="https://yourwebsite.com" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "House service Providers- Home360",
+              "url": "https://yourwebsite.com",
+              "author": {
+                "@type": "Person",
+                "name": "Sharmila"
+              }
+            }),
+          }}
+        />
       </Head>
       <Header />
       <div className="firstsection">
