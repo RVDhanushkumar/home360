@@ -23,7 +23,7 @@ export default function AuthPage() {
           <input type="password" placeholder="Password" />
           <button>Login</button>
           <p>
-            Don't have an account?{" "}
+            Dont have an account?{"&apos"}
             <span onClick={() => setIsFlipped(!isFlipped)}>Sign Up</span>
           </p>
 

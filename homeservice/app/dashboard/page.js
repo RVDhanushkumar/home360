@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import "./dashboard.css";
 import {
   LineChart,
@@ -62,7 +63,7 @@ const Dashboard = () => {
         <h2>Dashboard</h2>
 
         <div className="user-info">
-          <img src="https://th.bing.com/th/id/R.1871862d87bb8037d953317fb4497189?rik=MBf1NyuchSQUtQ&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fProfile.png&ehk=Ouu2uMvvMPnkP1bdIY2BTAzbwhRoG9p03NUzbwGLhlg%3d&risl=&pid=ImgRaw&r=0" alt="User  Avatar" className="user-avatar" />
+          <Image src="https://th.bing.com/th/id/R.1871862d87bb8037d953317fb4497189?rik=MBf1NyuchSQUtQ&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fProfile.png&ehk=Ouu2uMvvMPnkP1bdIY2BTAzbwhRoG9p03NUzbwGLhlg%3d&risl=&pid=ImgRaw&r=0" alt="User  Avatar" className="user-avatar" width={200} height={200} />
           <h3>John Doe</h3>
           <p>CEO & Founder</p>
           <p className="status">Verified Account ✅</p>

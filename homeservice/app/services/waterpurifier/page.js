@@ -12,7 +12,7 @@ export default function WaterPurifier() {
                     <h1>Professional Water Purifier Services</h1>
                     <p>Get expert installation, repair, and maintenance services for all types of water purifiers.</p>
                 </div>
-                <img src="https://www.serviceonwheel.com/uploads/service/701241584075356.jpg" alt="Water Purifier Service" className="hero-image" style={{height:200,width:"auto"}}/>
+                <Image src="https://www.serviceonwheel.com/uploads/service/701241584075356.jpg" alt="Water Purifier Service" className="hero-image" style={{height:200,width:"auto"}} width={200} height={200}/>
             </section>
 
             {/* Service Details Section */}
@@ -20,19 +20,19 @@ export default function WaterPurifier() {
                 <h2>Why Choose Our Water Purifier Services?</h2>
                 <div className="details-container">
                     <div className="detail-card">
-                        <img src="https://th.bing.com/th/id/OIP.OS_ip5mYPU6CzUGYAPrcwAHaE8?rs=1&pid=ImgDetMain" alt="Installation" loading="lazy"/>
+                        <Image src="https://th.bing.com/th/id/OIP.OS_ip5mYPU6CzUGYAPrcwAHaE8?rs=1&pid=ImgDetMain" alt="Installation" loading="lazy" width={200} height={200}/>
                         <h3>Installation</h3>
                         <p>We install all types of water purifiers with professional setup and guidance.</p>
                     </div>
 
                     <div className="detail-card">
-                        <img src="https://th.bing.com/th/id/OIP.aZP1kZJb9S07eDfmVbl7LwHaE8?rs=1&pid=ImgDetMain" alt="Repair" />
+                        <Image src="https://th.bing.com/th/id/OIP.aZP1kZJb9S07eDfmVbl7LwHaE8?rs=1&pid=ImgDetMain" alt="Repair" loading="lazy" width={200} height={200}/>
                         <h3>Repair</h3>
                         <p>Facing issues with your purifier? Our experts diagnose and fix all problems efficiently.</p>
                     </div>
 
                     <div className="detail-card">
-                        <img src="https://i.ytimg.com/vi/YLGGBxLITtw/maxresdefault.jpg" alt="Maintenance" />
+                        <Image src="https://i.ytimg.com/vi/YLGGBxLITtw/maxresdefault.jpg" alt="Maintenance" loading="lazy" width={200} height={200}/>
                         <h3>Maintenance</h3>
                         <p>Ensure clean and safe drinking water with our regular maintenance services.</p>
                     </div>

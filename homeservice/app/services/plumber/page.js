@@ -1,6 +1,7 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import "../ac/ac.css";
+import Image from "next/image";
 
 export default function Plumber() {
     return (
@@ -11,26 +12,26 @@ export default function Plumber() {
                     <h1>Reliable Plumbing Services</h1>
                     <p>Expert plumbing solutions for leak repairs, pipe installations, and more.</p>
                 </div>
-                <img src="https://wallpaperaccess.com/full/2491129.jpg" alt="Plumbing Service" className="hero-image" />
+                <Image src="https://wallpaperaccess.com/full/2491129.jpg" alt="Plumbing Service" className="hero-image" loading="lazy" width={200} height={200}/>
             </section>
 
             <section className="service-details">
                 <h2>Why Choose Our Plumbing Services?</h2>
                 <div className="details-container">
                     <div className="detail-card">
-                        <img src="https://th.bing.com/th/id/OIP.7FkXUfhHfhXP8yh2aBgrawHaEK?rs=1&pid=ImgDetMain" alt="Pipe Installation" />
+                        <Image src="https://th.bing.com/th/id/OIP.7FkXUfhHfhXP8yh2aBgrawHaEK?rs=1&pid=ImgDetMain" alt="Pipe Installation" loading="lazy" width={200} height={200}/>
                         <h3>Pipe Installation</h3>
                         <p>Get new pipes installed professionally for long-lasting durability.</p>
                     </div>
 
                     <div className="detail-card">
-                        <img src="https://th.bing.com/th/id/OIP.RZDVDe_o6WsWWHl18gemkAHaE7?rs=1&pid=ImgDetMain" alt="Leak Repair" />
+                        <Image src="https://th.bing.com/th/id/OIP.RZDVDe_o6WsWWHl18gemkAHaE7?rs=1&pid=ImgDetMain" alt="Leak Repair" loading="lazy" width={200} height={200}/>
                         <h3>Leak Repair</h3>
                         <p>Fix leaky taps, pipes, and other plumbing issues with our quick repair service.</p>
                     </div>
 
                     <div className="detail-card">
-                        <img src="https://th.bing.com/th/id/OIP.Q5cGUWcVWsjc3BVUtQVu9AHaEK?rs=1&pid=ImgDetMain" alt="Bathroom Repair" />
+                        <Image src="https://th.bing.com/th/id/OIP.Q5cGUWcVWsjc3BVUtQVu9AHaEK?rs=1&pid=ImgDetMain" alt="Bathroom Repair" loading="lazy" width={200} height={200}/>
                         <h3>Bathroom & Kitchen Repairs</h3>
                         <p>We fix clogged drains, water pressure issues, and plumbing-related faults.</p>
                     </div>

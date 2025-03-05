@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import Image from "next/image";
 
 const HomePage = () => {
   return (
@@ -19,7 +20,7 @@ const HomePage = () => {
           </p>
         </div>
         <div className="about-image">
-          <img src="https://image.shutterstock.com/image-vector/team-workers-building-house-foreman-260nw-528760327.jpg" alt="Home Services" />
+          <Image src="https://image.shutterstock.com/image-vector/team-workers-building-house-foreman-260nw-528760327.jpg" alt="Home Services" width={200} height={200}/>
         </div>
       </section>
 
@@ -54,7 +55,7 @@ const HomePage = () => {
         </ul>
         </div>
         <div>
-          <img id="choose-img" src="https://thumbs.dreamstime.com/b/construction-workers-uniforms-indoors-home-repair-service-147554128.jpg" alt="bgimg"></img>
+          <Image id="choose-img" src="https://thumbs.dreamstime.com/b/construction-workers-uniforms-indoors-home-repair-service-147554128.jpg" alt="bgimg" width={200} height={200}></Image>
         </div>
         </div>
       </section>
