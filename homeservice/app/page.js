@@ -32,10 +32,10 @@ export default function Home() {
           content="Where Luxury Meets Convenience - Your Home, Our Priority. Get top-notch home services at your doorstep."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://porfolio-dk13.vercel.app/" />
+        <meta property="og:url" content="https://home360-bu99.vercel.app/" />
         <meta
           property="og:image"
-          content="https://yourwebsite.com/og-image.jpg"
+          content="https://https://home360-bu99.vercel.app/og-image.jpg"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -48,9 +48,9 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://yourwebsite.com/twitter-image.jpg"
+          content="https://home360-bu99.vercel.app/twitter-image.jpg"
         />
-        <link rel="canonical" href="https://yourwebsite.com" />
+        <link rel="canonical" href="https://home360-bu99.vercel.app/" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -58,7 +58,7 @@ export default function Home() {
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "House service Providers- Home360",
-              "url": "https://yourwebsite.com",
+              "url": "https://home360-bu99.vercel.app/",
               "author": {
                 "@type": "Person",
                 "name": "Sharmila"
