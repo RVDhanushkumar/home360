@@ -67,18 +67,18 @@ export default function Home() {
             <Image src="https://www.serviceonwheel.com/uploads/service/463041670415979.png" width={100} height={100} alt="pic"></Image>
             <p>Plumber</p>
           </div></Link>
-          <div className="serv">
+          <Link href="/services/driver"><div className="serv">
             <Image src="https://www.serviceonwheel.com/uploads/service/305571670412648.png" width={100} height={100} alt="pic"></Image>
             <p>Driver on Demand</p>
-          </div>
-          <div className="serv">
+          </div></Link>
+          <Link href="/services/refrig"><div className="serv">
             <Image src="https://www.serviceonwheel.com/uploads/service/793741670309606.png" width={100} height={100} alt="pic"></Image>
             <p>Refrigerator</p>
-          </div>
-          <div className="serv">
-            <Image src="https://www.serviceonwheel.com/uploads/service/251981670309575.png" width={100} height={100} alt="pic"></Image>
+          </div></Link>
+          <Link href="/services/washing"><div className="serv">
+          <Image src="https://www.serviceonwheel.com/uploads/service/251981670309575.png" width={100} height={100} alt="pic"></Image>
             <p>Washing Machine</p>
-          </div>
+          </div></Link>
         </div>
         <div style={{display:"grid", placeContent:"center",margin:"60px"}}><h2>How to Use?</h2></div>
         <div className="howitworks">
