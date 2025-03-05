@@ -2,6 +2,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import "../ac/ac.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function WaterPurifier() {
     return (
