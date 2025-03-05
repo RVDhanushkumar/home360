@@ -20,43 +20,42 @@ export default function WaterPurifier() {
                 <h2>Why Choose Our Water Purifier Services?</h2>
                 <div className="details-container">
                     <div className="detail-card">
-                        <Image src="https://th.bing.com/th/id/OIP.OS_ip5mYPU6CzUGYAPrcwAHaE8?rs=1&pid=ImgDetMain" alt="Installation" loading="lazy" width={200} height={200}/>
+                        <a href="https://en.wikipedia.org/wiki/Plumbing"><Image src="https://th.bing.com/th/id/OIP.OS_ip5mYPU6CzUGYAPrcwAHaE8?rs=1&pid=ImgDetMain" alt="Installation" loading="lazy" width={200} height={200}/></a>
                         <h3>Installation</h3>
                         <p>We install all types of water purifiers with professional setup and guidance.</p>
                     </div>
 
                     <div className="detail-card">
-                        <Image src="https://th.bing.com/th/id/OIP.aZP1kZJb9S07eDfmVbl7LwHaE8?rs=1&pid=ImgDetMain" alt="Repair" loading="lazy" width={200} height={200}/>
+                        <a href="https://en.wikipedia.org/wiki/Plumbing"><Image src="https://th.bing.com/th/id/OIP.aZP1kZJb9S07eDfmVbl7LwHaE8?rs=1&pid=ImgDetMain" alt="Repair" loading="lazy" width={200} height={200}/></a>
                         <h3>Repair</h3>
                         <p>Facing issues with your purifier? Our experts diagnose and fix all problems efficiently.</p>
                     </div>
 
                     <div className="detail-card">
-                        <Image src="https://i.ytimg.com/vi/YLGGBxLITtw/maxresdefault.jpg" alt="Maintenance" loading="lazy" width={200} height={200}/>
+                    <a href="https://en.wikipedia.org/wiki/Plumbing"><Image src="https://i.ytimg.com/vi/YLGGBxLITtw/maxresdefault.jpg" alt="Maintenance" loading="lazy" width={200} height={200}/></a>
                         <h3>Maintenance</h3>
                         <p>Ensure clean and safe drinking water with our regular maintenance services.</p>
                     </div>
                 </div>
             </section>
 
-            {/* Pricing Section */}
             <section className="pricing">
                 <h2>Service Pricing</h2>
                 <div className="pricing-container">
                     <div className="pricing-card">
-                        <h3>Basic Service</h3>
+                    <a href="https://en.wikipedia.org/wiki/Plumbing"><h3>Basic Service</h3></a>
                         <p>₹499</p>
                         <span>Filter cleaning, minor leak fixes.</span>
                     </div>
 
                     <div className="pricing-card">
-                        <h3>Comprehensive Service</h3>
+                    <a href="https://en.wikipedia.org/wiki/Plumbing"><h3>Comprehensive Service</h3></a>
                         <p>₹999</p>
                         <span>Complete purification check, filter replacement.</span>
                     </div>
 
                     <div className="pricing-card">
-                        <h3>Annual Maintenance</h3>
+                    <a href="https://en.wikipedia.org/wiki/Plumbing"><h3>Annual Maintenance</h3></a>
                         <p>₹2,499</p>
                         <span>Includes 3 periodic services & spare parts replacement.</span>
                     </div>
