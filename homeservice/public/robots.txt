@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://home360-bu99.vercel.app/sitemap.xml
