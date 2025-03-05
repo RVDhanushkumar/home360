@@ -53,7 +53,7 @@ export default function Home() {
       </div>
 
       <div className="sensection">
-        <div style={{display:"grid", placeContent:"center",margin:"60px"}}><h1>Types of services</h1></div>
+        <div style={{display:"grid", placeContent:"center",margin:"60px"}}><h2>Types of services</h2></div>
         <div className="typesofservice">
           <Link href="/services/ac"><div className="serv">
             <Image src="https://www.serviceonwheel.com/uploads/service/530771670303201.png" width={100} height={100} alt="pic"></Image>
@@ -80,7 +80,7 @@ export default function Home() {
             <p>Washing Machine</p>
           </div>
         </div>
-        <div style={{display:"grid", placeContent:"center",margin:"60px"}}><h1>How to Use?</h1></div>
+        <div style={{display:"grid", placeContent:"center",margin:"60px"}}><h2>How to Use?</h2></div>
         <div className="howitworks">
           <div className="hiw">
             <Image src="https://www.serviceonwheel.com/images/hstep1.png" width={100} height={100} alt="pic"></Image>
@@ -107,12 +107,12 @@ export default function Home() {
       </div>
       
       <div style={{display:"grid",placeContent:"center",height:"90vh"}}>
-      <div style={{display:"grid",placeContent:"center",marginBottom:"30px"}}><h1>Testimonials</h1></div>
+      <div style={{display:"grid",placeContent:"center",marginBottom:"30px"}}><h2>Testimonials</h2></div>
       <div className="testimonials">
         <div className="testi">
           <div className="info">
             <Image src="https://www.serviceonwheel.com/uploads/homereview/399411671172940.jpg" height={100} width={100} alt="pic" style={{borderRadius:"50%"}}></Image>
-            <div style={{padding:"20px"}}><h1>Sneha</h1>
+            <div style={{padding:"20px"}}><h2>Sneha</h2>
             <p>Service Rated⭐5.0</p></div>
           </div>
           <div className="desc">
@@ -122,7 +122,7 @@ export default function Home() {
         <div className="testi">
           <div className="info">
             <Image src="https://www.serviceonwheel.com/uploads/homereview/467301671172983.jpg" height={100} width={100} alt="pic" style={{borderRadius:"50%"}}></Image>
-            <div style={{padding:"20px"}}><h1>Ram </h1>
+            <div style={{padding:"20px"}}><h2>Ram </h2>
             <p>Service Rated⭐5.0</p></div>
           </div>
           <div className="desc">
@@ -132,7 +132,7 @@ export default function Home() {
         <div className="testi">
           <div className="info">
             <Image src="https://www.serviceonwheel.com/uploads/homereview/319051671173434.jpg" height={100} width={100} alt="pic" style={{borderRadius:"50%"}}></Image>
-            <div style={{padding:"20px"}}><h1>Anjali</h1>
+            <div style={{padding:"20px"}}><h2>Anjali</h2>
             <p>Service Rated⭐4.9</p></div>
           </div>
           <div className="desc">
@@ -143,12 +143,12 @@ export default function Home() {
       </div>
       </div>
       <div className="location">
-      <div style={{display:"grid",placeContent:"center",margin:"20px"}}><h1>Our Location</h1></div>
+      <div style={{display:"grid",placeContent:"center",margin:"20px"}}><h2>Our Location</h2></div>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33328.08404962139!2d83.42606439640673!3d17.922545719129158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3957d4fa6ccb81%3A0x7a22fff24f2a6120!2sArise%20Companies%20Pest%20and%20Home%20care!5e0!3m2!1sen!2sin!4v1741114298931!5m2!1sen!2sin" width="750" height="400" style={{border:"0",borderRadius:"10px"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
       <div className="animation">
-        <h1>Home 360</h1>
+        <h2>Home 360</h2>
       </div>
       <Footer />
     </div>
