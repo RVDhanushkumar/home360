@@ -7,10 +7,10 @@ export default function Footer() {
       <div className={styles.topSection}>
         <div className={styles.downloadButtons}>
           <button>
-            <Image src="https://www.serviceonwheel.com/images/img-gplay.png" alt="Google Play" width={150} height={50} />
+            <Image src="https://www.serviceonwheel.com/images/img-gplay.png" alt="Google Play" width={150} height={55} />
           </button>
           <button>
-            <Image src="https://www.serviceonwheel.com/images/img-appstore.png" alt="App Store" width={150} height={50} />
+            <Image src="https://www.serviceonwheel.com/images/img-appstore.png" alt="App Store" width={150} height={55} />
           </button>
         </div>
         <div className={styles.newsletter}>

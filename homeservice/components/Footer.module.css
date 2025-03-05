@@ -1,162 +1,248 @@
 .footer {
-    background-color: #004d40;
-    color: white;
-    padding: 30px 20px;
-    font-family: Arial, sans-serif;
-  }
-  
+  background-color: #002b36;
+  color: white;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+.footer a {
+  color: #80cbc4;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #00e676;
+}
+
+.topSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.downloadButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.downloadButtons button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.downloadButtons button:hover {
+  transform: scale(1.05);
+}
+
+.newsletter {
+  text-align: center;
+}
+
+.newsletter label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.newsletter div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.newsletter input {
+  padding: 12px;
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid #00e676;
+  outline: none;
+}
+
+.newsletter button {
+  background-color: #00e676;
+  color: #002b36;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 8px;
+  transition: background 0.3s;
+}
+
+.newsletter button:hover {
+  background-color: #00897b;
+}
+
+.mainSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 0;
+  gap: 30px;
+  text-align: center;
+}
+
+.companyInfo,
+.links,
+.cities {
+  width: 30%;
+  min-width: 200px;
+}
+
+.companyInfo h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #00e676;
+}
+
+.companyInfo p {
+  font-size: 14px;
+  text-align: justify;
+  color: #cfd8dc;
+}
+
+.companyInfo button {
+  background: #00e676;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.companyInfo button:hover {
+  background: #00897b;
+}
+
+.links h4,
+.cities h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #00e676;
+  margin-bottom: 10px;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.links li:hover {
+  color: #80cbc4;
+}
+
+.cities p {
+  font-size: 14px;
+  color: #cfd8dc;
+}
+
+.bottomSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.socials h4,
+.support h4,
+.paymentOptions h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #00e676;
+}
+
+.socials div {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.socials span {
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.socials span:hover {
+  color: #80cbc4;
+}
+
+.support p,
+.paymentOptions p {
+  font-weight: bold;
+  font-size: 16px;
+  color: #cfd8dc;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
   .topSection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 15px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  }
-  .topSection button{
-    background-color: transparent;
-    border: none;
+      flex-direction: column;
+      text-align: center;
   }
 
-  .downloadButtons img {
-    height: 40px;
-    cursor: pointer;
+  .newsletter div {
+      flex-direction: column;
   }
-  .downloadButtons img:hover{
-    box-shadow: 0px 0px 10px white;
-  }
-  
-  .newsletter {
-    display: flex;
-    align-items: center;
-  }
-  
+
   .newsletter input {
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    width: 220px;
-    outline: none;
+      width: 90%;
+      margin-bottom: 8px;
   }
-  
-  .newsletter button {
-    background-color: #00897b;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 5px;
-    transition: background 0.3s;
-  }
-  
-  .newsletter button:hover {
-    background-color: #00695c;
-  }
-  
+
   .mainSection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px 0;
+      flex-direction: column;
+      text-align: center;
   }
-  
+
   .companyInfo,
   .links,
   .cities {
-    width: 30%;
-    min-width: 200px;
-    margin-bottom: 20px;
+      width: 100%;
   }
-  
-  .companyInfo p {
-    line-height: 1.6;
-  }
-  
-  .links ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .links li {
-    margin-bottom: 8px;
-    cursor: pointer;
-    transition: color 0.3s;
-  }
-  
-  .links li:hover {
-    color: #80cbc4;
-  }
-  
+
   .bottomSection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-  }
-  
-  .socials a {
-    color: white;
-    font-size: 20px;
-    margin-right: 15px;
-    transition: color 0.3s;
-  }
-  
-  .socials a:hover {
-    color: #80cbc4;
-  }
-  
-  .support p,
-  .paymentOptions p {
-    font-weight: bold;
-  }
-  
-  .paymentIcons img {
-    height: 30px;
-    margin-right: 10px;
-  }
-  
-  /* Responsive Design */
-  @media screen and (max-width: 768px) {
-    .topSection {
       flex-direction: column;
       text-align: center;
-    }
-  
-    .newsletter {
+  }
+
+  .socials {
       margin-top: 10px;
-      flex-direction: column;
-    }
-  
-    .newsletter input {
-      width: 100%;
-      margin-bottom: 8px;
-    }
-  
-    .newsletter button {
-      width: 100%;
-    }
-  
-    .mainSection {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .companyInfo,
-    .links,
-    .cities {
-      width: 100%;
-    }
-  
-    .bottomSection {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .socials {
-      margin-top: 10px;
-    }
   }
-  
+}
+.animation{
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  top: 0;
+  animation: fadeout 2s ease-in-out;
+}
+
+@keyframes fadeout {
+  to{
+    
+  }
+}
+

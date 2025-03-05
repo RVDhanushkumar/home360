@@ -1,0 +1,217 @@
+/* Blog Page Styling */
+.blog-container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    margin-top: 100px;
+}
+
+/* Animated Title */
+.blog-title {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+/* Blog Sections */
+.blog-section {
+    padding: 30px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.blog-section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Title */
+.section-title {
+    font-size: 2rem;
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #ff4b2b;
+    margin: 10px auto;
+    border-radius: 2px;
+    animation: underlineSlide 1s ease-in-out;
+}
+
+/* Video Grid Layout */
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+    justify-content: center;
+}
+
+/* Blog Card with Dynamic Background */
+.blog-card {
+    position: relative;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1));
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    animation: slideUp 1s ease-in-out;
+}
+
+/* Floating Shapes on Blog Cards */
+.blog-card::before, .blog-card::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    opacity: 0.3;
+    transition: transform 0.5s ease-in-out;
+}
+
+.blog-card::before {
+    top: -20px;
+    left: -20px;
+}
+
+.blog-card::after {
+    bottom: -20px;
+    right: -20px;
+}
+
+.blog-card:hover::before {
+    transform: translateX(20px) translateY(20px) scale(1.2);
+}
+
+.blog-card:hover::after {
+    transform: translateX(-20px) translateY(-20px) scale(1.2);
+}
+
+/* Glow Effect */
+.blog-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(255, 75, 43, 0.7);
+}
+
+/* Video Styling */
+.blog-card iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Blog Card Title & Description */
+.blog-card h3 {
+    font-size: 1.4rem;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.blog-card p {
+    font-size: 1rem;
+    color: #ddd;
+    margin-top: 8px;
+}
+
+/* Read More Button with Glow Effect */
+.read-more {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background: linear-gradient(90deg, #ff416c, #ff4b2b);
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.read-more:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 0px 10px rgba(255, 75, 43, 0.7);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .blog-container {
+        margin-top: 150px;
+        padding: 20px;
+    }
+    
+    .blog-title {
+        font-size: 2.5rem;
+    }
+
+    .section-title {
+        font-size: 1.7rem;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes underlineSlide {
+    from {
+        width: 0;
+    }
+    to {
+        width: 60px;
+    }
+}

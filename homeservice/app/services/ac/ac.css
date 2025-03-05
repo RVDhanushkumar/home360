@@ -1,0 +1,187 @@
+/* General Styling */
+.service-container {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: #121212;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background: linear-gradient(135deg, #004e92, #000428);
+    color: white;
+}
+
+.hero-text {
+    max-width: 600px;
+    text-align: left;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.hero-image {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+    animation: floatUp 1.5s ease-in-out;
+}
+
+/* Service Details Section */
+.service-details {
+    padding: 50px 20px;
+    background: #1c1c1c;
+}
+
+.service-details h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.detail-card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.detail-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.2);
+}
+
+.detail-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.detail-card h3 {
+    font-size: 1.5rem;
+}
+
+/* Pricing Section */
+.pricing {
+    padding: 50px 20px;
+    background: #292929;
+}
+
+.pricing h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 250px;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.2);
+}
+
+.pricing-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.pricing-card p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.pricing-card span {
+    font-size: 1rem;
+    display: block;
+    margin-top: 10px;
+    color: #ddd;
+}
+
+/* Booking Section */
+.booking {
+    padding: 50px;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+}
+
+.booking h2 {
+    font-size: 2.5rem;
+}
+
+.booking p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.book-now {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    background: white;
+    color: #ff4b2b;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-now:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes floatUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+@media (max-width:600){
+    .hero-section{
+        display: block;
+    }
+    .hero-text{
+        margin: 15px;
+    }
+}

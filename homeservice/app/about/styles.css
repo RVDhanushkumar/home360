@@ -1,0 +1,169 @@
+.about-us {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    background: #1b263b;
+    margin-top: 100px;
+  }
+  
+  .about-content {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .about-content h2 {
+    font-family: "Merriweather", serif;
+    color: #FCA311;
+    font-size: 30px;
+  }
+  .about-content p {
+    font-size: 20px;
+  }
+  
+  .about-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    border-radius: 12px;
+  }
+  
+  /* Services - Horizontal Scroll */
+  .services {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #0d1b2a, #1b263b);
+    color: white;
+}
+
+.service-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    scrollbar-width: none; /* Hides scrollbar */
+    scroll-behavior: smooth;
+}
+
+.service-card {
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+    color: black;
+    padding: 20px;
+    min-width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.service-card::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 10%, transparent 70%);
+    opacity: 0.5;
+    transform: rotate(30deg);
+}
+
+/* Hover Effect */
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(255, 165, 0, 0.6);
+}
+
+/* Text Styling */
+.service-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.service-card p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+  
+  /* Why Choose Us */
+  .why-choose-us {
+    padding: 50px;
+    background: #1b263b;
+  }
+  
+  .why-choose-us h2 {
+    font-family: "Merriweather", serif;
+    color: #FCA311;
+    font-size: 26px;
+  }
+  .reason{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+  }
+  .choose{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    
+  }
+  @media (max-width: 798px){
+
+    .choose{
+        display: inline;
+    }
+  }
+  #choose-img{
+    width:400px;
+    height:300px;
+    border-radius: 10%;
+  }
+  
+  .contact {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .contact h2 {
+    font-family: "Merriweather", serif;
+    color: #FCA311;
+    font-size: 26px;
+  }
+  
+  .contact-btn {
+    background: #FCA311;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    border: none;
+    margin-top: 1rem;
+  }
+  
+  /* Floating Buttons */
+  .chat-btn, .help-btn {
+    position: fixed;
+    bottom: 20px;
+    background-color: #FCA311;
+    color: black;
+    padding: 12px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .chat-btn {
+    left: 20px;
+  }
+  
+  .help-btn {
+    right: 20px;
+  }
