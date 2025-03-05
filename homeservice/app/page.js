@@ -56,16 +56,16 @@ export default function Home() {
         <div style={{display:"grid", placeContent:"center",margin:"60px"}}><h2>Types of services</h2></div>
         <div className="typesofservice">
           <Link href="/services/ac"><div className="serv">
-          <Link href="/services/plumber"><Image src="https://www.serviceonwheel.com/uploads/service/530771670303201.png" width={100} height={100} alt="pic"></Image></Link>
-            <Link href="/services/plumber"><p>Air Conditioner</p></Link>
+            <Image src="https://www.serviceonwheel.com/uploads/service/530771670303201.png" width={100} height={100} alt="pic"></Image>
+            <p>Air Conditioner</p>
           </div></Link>
           <Link href="/services/waterpurifier"><div className="serv">
-          <Link href="/services/plumber"><Image src="https://www.serviceonwheel.com/uploads/service/578261670309501.png" width={100} height={100} alt="pic"></Image></Link>
-          <Link href="/services/plumber"><p>Water purifier</p></Link>
+            <Image src="https://www.serviceonwheel.com/uploads/service/578261670309501.png" width={100} height={100} alt="pic"></Image>
+            <p>Water purifier</p>
           </div></Link>
           <Link href="/services/plumber"><div className="serv">
-          <Link href="/services/plumber"><Image src="https://www.serviceonwheel.com/uploads/service/463041670415979.png" width={100} height={100} alt="pic"></Image></Link>
-          <Link href="/services/plumber"><p>Plumber</p></Link>
+            <Image src="https://www.serviceonwheel.com/uploads/service/463041670415979.png" width={100} height={100} alt="pic"></Image>
+            <p>Plumber</p>
           </div></Link>
           <div className="serv">
             <Image src="https://www.serviceonwheel.com/uploads/service/305571670412648.png" width={100} height={100} alt="pic"></Image>
@@ -112,7 +112,7 @@ export default function Home() {
         <div className="testi">
           <div className="info">
             <Image src="https://www.serviceonwheel.com/uploads/homereview/399411671172940.jpg" height={100} width={100} alt="pic" style={{borderRadius:"50%"}}></Image>
-            <div style={{padding:"20px"}}><h2>Sneha</h2>
+            <div style={{padding:"20px"}}><h1>Sneha</h1>
             <p>Service Rated⭐5.0</p></div>
           </div>
           <div className="desc">
@@ -150,6 +150,31 @@ export default function Home() {
       <div className="animation">
         <h2>Home 360</h2>
       </div>
+      <div style={{opacity:0,position:"absolute",bottom:"0",zIndex:"-100"}}>
+      <h2>Wikipedia Links</h2>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Next.js" target="_blank" rel="noopener noreferrer">Next.js</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/React_(software)" target="_blank" rel="noopener noreferrer">React.js</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer">JavaScript</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Web_development" target="_blank" rel="noopener noreferrer">Web Development</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank" rel="noopener noreferrer">Artificial Intelligence</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" rel="noopener noreferrer">Machine Learning</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Deep_learning" target="_blank" rel="noopener noreferrer">Deep Learning</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank" rel="noopener noreferrer">Python</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Node.js" target="_blank" rel="noopener noreferrer">Node.js</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer">HTML</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noopener noreferrer">CSS</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="_blank" rel="noopener noreferrer">Bootstrap</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Tailwind_CSS" target="_blank" rel="noopener noreferrer">Tailwind CSS</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/TypeScript" target="_blank" rel="noopener noreferrer">TypeScript</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/GraphQL" target="_blank" rel="noopener noreferrer">GraphQL</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Representational_state_transfer" target="_blank" rel="noopener noreferrer">REST API</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/MongoDB" target="_blank" rel="noopener noreferrer">MongoDB</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/PostgreSQL" target="_blank" rel="noopener noreferrer">PostgreSQL</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Docker_(software)" target="_blank" rel="noopener noreferrer">Docker</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Kubernetes" target="_blank" rel="noopener noreferrer">Kubernetes</a></li>
+      </ul>
+    </div>
       <Footer />
     </div>
   );
