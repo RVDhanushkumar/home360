@@ -56,16 +56,16 @@ export default function Home() {
         <div style={{display:"grid", placeContent:"center",margin:"60px"}}><h2>Types of services</h2></div>
         <div className="typesofservice">
           <Link href="/services/ac"><div className="serv">
-            <Image src="https://www.serviceonwheel.com/uploads/service/530771670303201.png" width={100} height={100} alt="pic"></Image>
-            <p>Air Conditioner</p>
+          <Link href="/services/plumber"><Image src="https://www.serviceonwheel.com/uploads/service/530771670303201.png" width={100} height={100} alt="pic"></Image></Link>
+            <Link href="/services/plumber"><p>Air Conditioner</p></Link>
           </div></Link>
           <Link href="/services/waterpurifier"><div className="serv">
-            <Image src="https://www.serviceonwheel.com/uploads/service/578261670309501.png" width={100} height={100} alt="pic"></Image>
-            <p>Water purifier</p>
+          <Link href="/services/plumber"><Image src="https://www.serviceonwheel.com/uploads/service/578261670309501.png" width={100} height={100} alt="pic"></Image></Link>
+          <Link href="/services/plumber"><p>Water purifier</p></Link>
           </div></Link>
           <Link href="/services/plumber"><div className="serv">
-            <Image src="https://www.serviceonwheel.com/uploads/service/463041670415979.png" width={100} height={100} alt="pic"></Image>
-            <p>Plumber</p>
+          <Link href="/services/plumber"><Image src="https://www.serviceonwheel.com/uploads/service/463041670415979.png" width={100} height={100} alt="pic"></Image></Link>
+          <Link href="/services/plumber"><p>Plumber</p></Link>
           </div></Link>
           <div className="serv">
             <Image src="https://www.serviceonwheel.com/uploads/service/305571670412648.png" width={100} height={100} alt="pic"></Image>
